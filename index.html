@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>E-Learning Platform</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #0073e6;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #005bb5;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #0073e6;
+    }
+    .course-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 15px;
+    }
+    .course {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 15px;
+      background: #fafafa;
+    }
+    .course h3 {
+      margin-top: 0;
+      color: #005bb5;
+    }
+    .course p {
+      font-size: 0.9em;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background: #0073e6;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the E-Learning Platform</h1>
+    <p>Learn anytime, anywhere</p>
+  </header>
+
+  <nav>
+    <a href="#courses">Courses</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container" id="courses">
+    <h2>Available Courses</h2>
+    <div class="course-list">
+      <div class="course">
+        <h3>Introduction to HTML</h3>
+        <p>Learn the basics of HTML and create your first web page.</p>
+      </div>
+      <div class="course">
+        <h3>CSS Fundamentals</h3>
+        <p>Style your web pages with CSS and create beautiful layouts.</p>
+      </div>
+      <div class="course">
+        <h3>JavaScript Basics</h3>
+        <p>Understand the fundamentals of JavaScript programming language.</p>
+      </div>
+      <div class="course">
+        <h3>Responsive Web Design</h3>
+        <p>Make your websites look great on all devices.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="about">
+    <h2>About Us</h2>
+    <p>Our mission is to provide quality online education to everyone, everywhere. We offer a variety of courses to help you build your skills and advance your career.</p>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@elearningplatform.com</p>
+    <p>Phone: +1 234 567 8901</p>
+  </div>
+
+  <footer>
+    &copy; 2025 E-Learning Platform. All rights reserved.
+  </footer>
+</body>
+</html>
